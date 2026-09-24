@@ -1,0 +1,65 @@
+/* tabs-testimonials: image-tabbed testimonial switcher.
+   Structural/layout only — brand styling applied during the design pass. */
+
+.tabs-testimonials .tabs-testimonials-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.tabs-testimonials .tabs-testimonials-tab {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 8px;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+  background-color: var(--background-color);
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.2s, border-color 0.2s;
+}
+
+.tabs-testimonials .tabs-testimonials-tab img {
+  display: block;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.tabs-testimonials .tabs-testimonials-tab[aria-selected='true'] {
+  opacity: 1;
+  border-color: var(--text-color);
+  cursor: initial;
+}
+
+.tabs-testimonials .tabs-testimonials-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.tabs-testimonials .tabs-testimonials-panel[aria-hidden='true'] {
+  display: none;
+}
+
+.tabs-testimonials .tabs-testimonials-panel img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (width >= 900px) {
+  .tabs-testimonials .tabs-testimonials-panel {
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+    text-align: left;
+  }
+
+  .tabs-testimonials .tabs-testimonials-panel > div {
+    flex: 1;
+  }
+}

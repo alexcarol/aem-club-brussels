@@ -1,0 +1,46 @@
+/* cards-benefits: centered grid of icon + heading + description items.
+   Structural/layout only — brand styling applied during the design pass. */
+
+.cards-benefits > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+.cards-benefits > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+
+.cards-benefits .cards-benefits-icon {
+  line-height: 0;
+}
+
+.cards-benefits .cards-benefits-icon img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.cards-benefits .cards-benefits-body > * {
+  margin: 0;
+}
+
+@media (width >= 600px) {
+  .cards-benefits > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-benefits > ul {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+  }
+}

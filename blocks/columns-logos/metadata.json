@@ -1,0 +1,10 @@
+{
+  "variantName": "columns-logos",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "A light-background wall/grid of partner or customer logos (typically 8), evenly spaced and centered, some logos linked. Preceded by a centered heading rendered as default content.",
+  "contentPattern": "Logo images arranged across cells/rows; each logo is an image or a linked image. Text heading is authored separately as default content above the block.",
+  "usage": "Trusted-by / partner logo walls.",
+  "options": [],
+  "memberVariantIds": ["columns-logos"]
+}

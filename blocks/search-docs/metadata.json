@@ -1,0 +1,10 @@
+{
+  "variantName": "search-docs",
+  "baseBlock": "search",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "A contained-width documentation search input with a magnifier icon; typing renders a live results list backed by a query index, each result showing an optional image, a title, and a description with matched terms highlighted.",
+  "contentPattern": "A single optional link cell pointing at the query-index JSON source; the block otherwise renders its own input and results UI.",
+  "usage": "Documentation / site search field with live results, typically placed near the hero.",
+  "options": ["minimal"],
+  "memberVariantIds": ["search-docs"]
+}

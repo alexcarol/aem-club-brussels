@@ -1,0 +1,10 @@
+{
+  "variantName": "cards-steps",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Three numbered 'how it works' steps on a light background, each with a large step number (01/02/03), a heading, a description paragraph, and a supporting image. Three columns on desktop.",
+  "contentPattern": "One row per step. Each row has a body cell (heading + description) and an image cell; the step number is generated automatically from row order.",
+  "usage": "How-it-works / process explainer sections with sequential numbered steps.",
+  "options": [],
+  "memberVariantIds": ["cards-steps"]
+}

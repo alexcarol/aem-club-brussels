@@ -1,0 +1,10 @@
+{
+  "variantName": "cards-benefits",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "A centered, light-background grid of benefit items (typically 6), each with a small colored icon, a heading, and a short description paragraph. Three columns on desktop.",
+  "contentPattern": "One row per benefit. Each row has an icon (image-only) cell and a body cell (heading + short description).",
+  "usage": "Feature/benefit grids that summarize product capabilities with icons.",
+  "options": [],
+  "memberVariantIds": ["cards-benefits"]
+}

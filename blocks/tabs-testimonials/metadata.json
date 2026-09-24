@@ -1,0 +1,10 @@
+{
+  "variantName": "tabs-testimonials",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "An interactive testimonials switcher on a light background: a centered row of image-based tab buttons (customer logos/avatars) switches between testimonial panels. Each panel shows a customer image, a pull-quote, the customer name and title, and a 'Visit Site' CTA.",
+  "contentPattern": "One row per testimonial panel. Each row's first image becomes its image tab button; the remaining cell holds the quote, attribution, and CTA.",
+  "usage": "Customer testimonial / case-study switchers keyed by brand logo tabs.",
+  "options": [],
+  "memberVariantIds": ["tabs-testimonials"]
+}

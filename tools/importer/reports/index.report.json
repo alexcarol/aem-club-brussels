@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://aem.live/",
+  "path": "index",
+  "timestamp": "2026-09-24T14:23:09.502Z",
+  "title": "Adobe Experience Manager",
+  "template": "home",
+  "blocks": [
+    "hero-gradient",
+    "hero-gradient",
+    "search-docs",
+    "columns-zpattern",
+    "cards-benefits",
+    "columns-logos",
+    "tabs-testimonials",
+    "cards-steps"
+  ]
+}

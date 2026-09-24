@@ -1,0 +1,10 @@
+{
+  "variantName": "columns-zpattern",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "A stack of value-proposition rows on a light background, each pairing a drop-shadow image on one side with text on the other; consecutive rows alternate the image side (Z-pattern). Text side has an icon eyebrow, a heading, and a tagged/bulleted description list.",
+  "contentPattern": "One row per value prop. Each row has two cells: an image-only cell and a text cell (icon/eyebrow, heading, bullet list). Rows alternate image alignment automatically.",
+  "usage": "Alternating image+text feature/value-prop sections.",
+  "options": [],
+  "memberVariantIds": ["columns-zpattern"]
+}
