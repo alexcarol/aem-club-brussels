@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://arco.coffee/",
+  "path": "index",
+  "timestamp": "2026-09-24T15:04:38.335Z",
+  "title": "Precision Brewing, Beautiful Design",
+  "template": "home",
+  "blocks": [
+    "hero-lifestyle",
+    "cards-product",
+    "quiz-interactive",
+    "cards-story",
+    "testimonials-cards",
+    "columns-media"
+  ]
+}

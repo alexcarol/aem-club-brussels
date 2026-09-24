@@ -1,0 +1,10 @@
+{
+  "variantName": "testimonials-cards",
+  "baseBlock": "testimonials",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Row of three centered testimonial cards, each with a circular customer photo, a 5-star rating, a quotation, and the customer name.",
+  "contentPattern": "One row per testimonial: avatar image cell + body cell (rating, quotation, name).",
+  "usage": "Social-proof section presenting customer quotes with ratings and attribution.",
+  "options": [],
+  "memberVariantIds": ["testimonials-cards"]
+}

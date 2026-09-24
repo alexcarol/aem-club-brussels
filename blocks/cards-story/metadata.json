@@ -1,0 +1,10 @@
+{
+  "variantName": "cards-story",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Grid of story cards, each with a photo, article title heading, short description, and a plain 'Read More' text link (no filled button).",
+  "contentPattern": "One row per story: image cell + body cell (title heading, description, 'Read More' link).",
+  "usage": "Latest stories / editorial grid linking to full articles.",
+  "options": [],
+  "memberVariantIds": ["cards-story"]
+}
