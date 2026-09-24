@@ -1,0 +1,10 @@
+{
+  "variantName": "cards-releases",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Full-width discography rows on a dark background; each row pairs square cover art (left) with a release year, an eyebrow format label, a bold title, a numbered track list separated by hairline rules, an optional embedded music video, and a dense grid of streaming-platform link buttons under a 'Listen On' label.",
+  "contentPattern": "Repeating list of release items. Each item = image cell (cover) + body cell (format label, title heading, ordered track list, optional YouTube video link, streaming platform links).",
+  "usage": "Discography / release listing pairing cover art with track details and streaming call-to-action links.",
+  "options": [],
+  "memberVariantIds": ["cards-releases"]
+}

@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "music",
+      "urls": [
+        "https://grod.rocks/music/"
+      ],
+      "representativeUrl": "https://grod.rocks/music/",
+      "description": "Music / discography page with a page header and a list of releases",
+      "urlPattern": "/*",
+      "blocks": [
+        {
+          "name": "cards-releases",
+          "instances": [
+            ".content-section .release-list",
+            ".release-list"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "rc1",
+          "name": "page-header",
+          "selector": [
+            "#main-content > header.page-header",
+            ".page-header"
+          ],
+          "style": "dark",
+          "blocks": [],
+          "defaultContent": [
+            ".page-header .page-header-inner"
+          ]
+        },
+        {
+          "id": "rc2",
+          "name": "discography",
+          "selector": [
+            "#main-content > section.content-section",
+            ".content-section"
+          ],
+          "style": "dark",
+          "blocks": [
+            "cards-releases"
+          ],
+          "defaultContent": [
+            ".content-section .content-inner > .eyebrow"
+          ]
+        }
+      ]
+    }
+  ]
+}
