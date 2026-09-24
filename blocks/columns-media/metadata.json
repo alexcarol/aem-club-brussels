@@ -1,0 +1,10 @@
+{
+  "variantName": "columns-media",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Two-column layout: image on one side, text column on the other with a heading, paragraph, and a primary CTA button. Stacks vertically on mobile.",
+  "contentPattern": "Single row, two columns: one image column and one text column (heading, paragraph, CTA link).",
+  "usage": "Media + message feature section pairing an image with supporting copy and a call to action.",
+  "options": [],
+  "memberVariantIds": ["columns-media"]
+}
