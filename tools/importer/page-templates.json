@@ -4,50 +4,151 @@
   },
   "templates": [
     {
-      "name": "music",
+      "name": "home",
       "urls": [
-        "https://grod.rocks/music/"
+        "https://aem.live/"
       ],
-      "representativeUrl": "https://grod.rocks/music/",
-      "description": "Music / discography page with a page header and a list of releases",
-      "urlPattern": "/*",
+      "representativeUrl": "https://aem.live/",
+      "description": "",
       "blocks": [
         {
-          "name": "cards-releases",
+          "name": "hero-gradient",
           "instances": [
-            ".content-section .release-list",
-            ".release-list"
-          ]
-        }
-      ],
-      "sections": [
-        {
-          "id": "rc1",
-          "name": "page-header",
-          "selector": [
-            "#main-content > header.page-header",
-            ".page-header"
-          ],
-          "style": "dark",
-          "blocks": [],
-          "defaultContent": [
-            ".page-header .page-header-inner"
+            ".hero.colorful-bg",
+            ".roi-calculator.colorful-bg"
           ]
         },
         {
-          "id": "rc2",
-          "name": "discography",
+          "name": "search-docs",
+          "instances": [
+            ".doc-search"
+          ]
+        },
+        {
+          "name": "columns-zpattern",
+          "instances": [
+            ".z-pattern"
+          ]
+        },
+        {
+          "name": "cards-benefits",
+          "instances": [
+            ".columns.four.colored-icon"
+          ]
+        },
+        {
+          "name": "columns-logos",
+          "instances": [
+            ".section.logo-wall-container:nth-of-type(4)"
+          ]
+        },
+        {
+          "name": "tabs-testimonials",
+          "instances": [
+            ".testimonials"
+          ]
+        },
+        {
+          "name": "cards-steps",
+          "instances": [
+            ".columns-container:nth-of-type(6) .columns-wrapper"
+          ]
+        }
+      ],
+      "urlPattern": "/",
+      "sections": [
+        {
+          "id": "s1",
+          "name": "hero",
           "selector": [
-            "#main-content > section.content-section",
-            ".content-section"
+            ".hero-container.doc-search-container.logo-wall-container"
           ],
-          "style": "dark",
+          "style": "colorful-gradient",
           "blocks": [
-            "cards-releases"
+            "hero-gradient",
+            "search-docs"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s2",
+          "name": "value-props",
+          "selector": [
+            ".z-pattern-container"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-zpattern"
           ],
           "defaultContent": [
-            ".content-section .content-inner > .eyebrow"
+            ".z-pattern-heading"
           ]
+        },
+        {
+          "id": "s3",
+          "name": "benefits",
+          "selector": [
+            ".title-section.columns-container:nth-of-type(3)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-benefits"
+          ],
+          "defaultContent": [
+            ".default-content-wrapper"
+          ]
+        },
+        {
+          "id": "s4",
+          "name": "logo-wall",
+          "selector": [
+            ".section.logo-wall-container:nth-of-type(4)"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-logos"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s5",
+          "name": "testimonials",
+          "selector": [
+            ".testimonials-container"
+          ],
+          "style": null,
+          "blocks": [
+            "tabs-testimonials"
+          ],
+          "defaultContent": [
+            ".default-content-wrapper"
+          ]
+        },
+        {
+          "id": "s6",
+          "name": "how-it-works",
+          "selector": [
+            ".title-section.columns-container:nth-of-type(6)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-steps"
+          ],
+          "defaultContent": [
+            ".default-content-wrapper"
+          ]
+        },
+        {
+          "id": "s7",
+          "name": "closing-cta",
+          "selector": [
+            ".roi-calculator-container"
+          ],
+          "style": "colorful-gradient",
+          "blocks": [
+            "hero-gradient"
+          ],
+          "defaultContent": []
         }
       ]
     }

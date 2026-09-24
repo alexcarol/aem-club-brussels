@@ -1,0 +1,53 @@
+/* columns-zpattern: alternating image + text value-prop rows.
+   Structural/layout only — brand styling applied during the design pass. */
+
+.columns-zpattern .columns-zpattern-row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.columns-zpattern .columns-zpattern-row:last-child {
+  margin-bottom: 0;
+}
+
+.columns-zpattern .columns-zpattern-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.columns-zpattern .columns-zpattern-text > * {
+  margin-top: 0;
+}
+
+@media (width >= 900px) {
+  .columns-zpattern .columns-zpattern-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 72px;
+  }
+
+  .columns-zpattern .columns-zpattern-row > div {
+    flex: 1;
+  }
+
+  /* even rows: image first; odd rows: image second (alternating Z-pattern) */
+  .columns-zpattern .columns-zpattern-row-even .columns-zpattern-img {
+    order: 0;
+  }
+
+  .columns-zpattern .columns-zpattern-row-even .columns-zpattern-text {
+    order: 1;
+  }
+
+  .columns-zpattern .columns-zpattern-row-odd .columns-zpattern-img {
+    order: 1;
+  }
+
+  .columns-zpattern .columns-zpattern-row-odd .columns-zpattern-text {
+    order: 0;
+  }
+}

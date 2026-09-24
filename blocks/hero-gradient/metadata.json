@@ -1,0 +1,10 @@
+{
+  "variantName": "hero-gradient",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Full-bleed banner on a light colorful gradient background with decorative shapes/imagery; centered layout with an optional uppercase eyebrow, a large headline, an optional subheading paragraph, and a primary CTA button.",
+  "contentPattern": "One or two cells: a content cell (eyebrow paragraph, heading, subheading, CTA link) and an optional image-only cell providing the decorative background artwork.",
+  "usage": "Top-of-page hero banner and closing call-to-action banner sharing the same colorful gradient treatment.",
+  "options": [],
+  "memberVariantIds": ["hero-gradient"]
+}

@@ -1,0 +1,71 @@
+/* hero-gradient: full-bleed banner on a colorful gradient background.
+   Structural/layout only — brand colors/typography left to the design pass. */
+
+.hero-gradient-container .hero-gradient-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-gradient {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 48px 24px;
+  min-height: 320px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-gradient .hero-gradient-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-gradient .hero-gradient-content > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero-gradient .hero-gradient-eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.hero-gradient h1,
+.hero-gradient h2 {
+  margin: 0;
+  max-width: 900px;
+}
+
+/* decorative imagery layered behind the text content */
+.hero-gradient .hero-gradient-image {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+}
+
+.hero-gradient .hero-gradient-image picture,
+.hero-gradient .hero-gradient-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (width >= 900px) {
+  .hero-gradient {
+    padding: 72px 32px;
+    min-height: 420px;
+  }
+}
