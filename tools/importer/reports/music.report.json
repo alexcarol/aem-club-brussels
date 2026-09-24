@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://grod.rocks/music/",
+  "path": "music",
+  "timestamp": "2026-09-24T13:31:45.943Z",
+  "title": "Music - GROD",
+  "template": "music",
+  "blocks": [
+    "cards-releases"
+  ]
+}
