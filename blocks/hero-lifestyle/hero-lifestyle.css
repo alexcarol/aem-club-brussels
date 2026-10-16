@@ -1,0 +1,80 @@
+/* hero-lifestyle: full-bleed background image with overlaid heading, text and CTAs */
+
+.hero-lifestyle-container .hero-lifestyle-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-lifestyle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 360px;
+  padding: 40px 24px;
+  overflow: hidden;
+}
+
+/* Background image sits behind the content */
+.hero-lifestyle .hero-lifestyle-image {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.hero-lifestyle .hero-lifestyle-image picture,
+.hero-lifestyle .hero-lifestyle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Content column, left-aligned and constrained in width */
+.hero-lifestyle .hero-lifestyle-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  max-width: 560px;
+}
+
+.hero-lifestyle .hero-lifestyle-content h1,
+.hero-lifestyle .hero-lifestyle-content h2,
+.hero-lifestyle .hero-lifestyle-content p {
+  margin: 0;
+}
+
+/* CTA row: primary + secondary side by side */
+.hero-lifestyle .hero-lifestyle-content .button-container {
+  margin: 0;
+}
+
+/* text-only fallback */
+.hero-lifestyle.no-image {
+  min-height: unset;
+}
+
+@media (width >= 600px) {
+  .hero-lifestyle {
+    min-height: 440px;
+    padding: 56px 32px;
+  }
+}
+
+@media (width >= 900px) {
+  .hero-lifestyle {
+    min-height: 520px;
+    padding: 72px 48px;
+  }
+
+  .hero-lifestyle .hero-lifestyle-content {
+    max-width: 620px;
+  }
+}
+
+@media (width >= 1200px) {
+  .hero-lifestyle {
+    padding: 80px 64px;
+  }
+}

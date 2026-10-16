@@ -1,0 +1,10 @@
+{
+  "variantName": "hero-lifestyle",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Full-bleed lifestyle background photo with left-aligned overlaid heading, descriptive paragraph, and two CTA links (primary + secondary).",
+  "contentPattern": "Row 1: background image. Row 2: heading + paragraph + CTA links.",
+  "usage": "Top-of-page hero banner with immersive lifestyle imagery and dual calls to action.",
+  "options": [],
+  "memberVariantIds": ["hero-lifestyle"]
+}

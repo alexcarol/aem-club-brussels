@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "home",
+      "urls": [
+        "https://arco.coffee/"
+      ],
+      "representativeUrl": "https://arco.coffee/",
+      "description": "Arco coffee homepage: hero, featured products, brew-style quiz, latest stories, testimonials, and a built-to-last media feature.",
+      "urlPattern": "/",
+      "blocks": [
+        {
+          "name": "hero-lifestyle",
+          "instances": [
+            ".hero-container .hero.block",
+            ".hero.block"
+          ]
+        },
+        {
+          "name": "cards-product",
+          "instances": [
+            ".cards-container:nth-of-type(2) .cards.block"
+          ]
+        },
+        {
+          "name": "quiz-interactive",
+          "instances": [
+            ".quiz-container .quiz.block",
+            ".quiz.block"
+          ]
+        },
+        {
+          "name": "cards-story",
+          "instances": [
+            ".cards-container:nth-of-type(4) .cards.block"
+          ]
+        },
+        {
+          "name": "testimonials-cards",
+          "instances": [
+            ".testimonials-container .testimonials.block",
+            ".testimonials.block"
+          ]
+        },
+        {
+          "name": "columns-media",
+          "instances": [
+            ".columns-container .columns.block",
+            ".columns.block"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "rc1",
+          "name": "hero",
+          "selector": [
+            ".section.hero-container"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-lifestyle"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc2",
+          "name": "featured-products",
+          "selector": [
+            ".section.cards-container:nth-of-type(2)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-product"
+          ],
+          "defaultContent": [
+            ".cards-container:nth-of-type(2) .default-content-wrapper"
+          ]
+        },
+        {
+          "id": "rc3",
+          "name": "quiz",
+          "selector": [
+            ".section.quiz-container"
+          ],
+          "style": null,
+          "blocks": [
+            "quiz-interactive"
+          ],
+          "defaultContent": [
+            ".quiz-container .default-content-wrapper"
+          ]
+        },
+        {
+          "id": "rc4",
+          "name": "latest-stories",
+          "selector": [
+            ".section.cards-container:nth-of-type(4)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-story"
+          ],
+          "defaultContent": [
+            ".cards-container:nth-of-type(4) .default-content-wrapper"
+          ]
+        },
+        {
+          "id": "rc5",
+          "name": "testimonials",
+          "selector": [
+            ".section.testimonials-container"
+          ],
+          "style": null,
+          "blocks": [
+            "testimonials-cards"
+          ],
+          "defaultContent": [
+            ".testimonials-container .default-content-wrapper"
+          ]
+        },
+        {
+          "id": "rc6",
+          "name": "built-to-last",
+          "selector": [
+            ".section.columns-container"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-media"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

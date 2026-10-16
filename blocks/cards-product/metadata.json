@@ -1,0 +1,10 @@
+{
+  "variantName": "cards-product",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Grid of product cards, each with a photo, product name heading, short description, and a filled pill-shaped price/CTA button (e.g. 'FROM $899').",
+  "contentPattern": "One row per product: image cell + body cell (heading, description, price/CTA link).",
+  "usage": "Featured products grid linking each item to its detail or purchase action.",
+  "options": [],
+  "memberVariantIds": ["cards-product"]
+}

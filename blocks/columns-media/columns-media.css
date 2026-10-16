@@ -1,0 +1,40 @@
+/* columns-media: side-by-side image and text column with heading, paragraph and CTA */
+
+.columns-media > div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.columns-media img {
+  width: 100%;
+  display: block;
+}
+
+.columns-media > div > div {
+  order: 1;
+}
+
+.columns-media > div > .columns-media-img-col {
+  order: 0;
+}
+
+.columns-media > div > div h1,
+.columns-media > div > div h2,
+.columns-media > div > div h3,
+.columns-media > div > div p {
+  margin: 0 0 16px;
+}
+
+@media (width >= 900px) {
+  .columns-media > div {
+    align-items: center;
+    flex-direction: row;
+    gap: 48px;
+  }
+
+  .columns-media > div > div {
+    flex: 1;
+    order: unset;
+  }
+}

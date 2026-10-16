@@ -1,0 +1,10 @@
+{
+  "variantName": "quiz-interactive",
+  "baseBlock": "quiz",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Centered interactive quiz showing one question at a time: a progress bar with 'N of M' label, the question heading, and a grid of selectable answer buttons.",
+  "contentPattern": "One row per question: first cell is the question text, remaining cells are the answer options.",
+  "usage": "Interactive multi-step quiz that guides visitors to a recommendation, advancing on each answer selection.",
+  "options": [],
+  "memberVariantIds": ["quiz-interactive"]
+}
